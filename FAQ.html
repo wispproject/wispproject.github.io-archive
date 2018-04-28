@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--
+ * Wisp Project Design
+ * Author: Skull
+ * Author URL: twitter.com/SkullRL
+-->
+<html lang="en">
+    
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wisp | The Future of Privacy</title>
+		
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+		
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+		
+		<!-- Load CSS for FAQ -->
+		<link rel="stylesheet" href="css2/reset.css"> <!-- CSS reset -->
+		<link rel="stylesheet" href="css2/style.css"> <!-- Resource style -->
+		<script src="js2/modernizr.js"></script> <!-- Modernizr -->
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="index.html" class="brand">
+					<!-- This is website logo -->
+                        <img src="images/wispnavbar.png" style="width: 120px; height: auto;" alt="Logo" />
+                    </a>
+					
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+					
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+							<li><a href="index.html#wallets">Wallets</a></li>
+                            <li><a href="roadmap.html">Roadmap</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="index.html#community">Community</a></li>
+							<li><a href="#">Media</a></li>
+                            <li><a href="#">Donate</a></li>
+							<li><a href="#">Languages</a></li>
+                        </ul>
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+		
+		
+		<!-- This is the banner logo -->
+		
+		<div class="section primary-section" id="service">
+            <div class="container">
+                <!-- Logo -->
+					<img style="display: block; margin-left:auto; margin-right:auto; width: 200px; height: auto" src="images/logowisp.png" alt="logo" />
+            </div>
+        </div>
+		
+		<!-- End banner logo -->
+		
+	<!-- Start FAQ section -->
+	
+		<!-- FAQ Categories -->
+		
+		<section class="cd-faq">
+		
+		
+		<ul class="cd-faq-categories">
+			<li><a class="selected" href="#general">General</a></li>
+			<li><a href="#technical">Technical</a></li>
+			<li><a href="#guides">Guides</a></li>
+		</ul>
+		
+		<!-- END FAQ Categories -->
+		
+		
+	<!-- FAQ ITEMS -->
+	
+	<!-- START GENERAL SECTION -->
+
+	<div class="cd-faq-items">
+		<ul id="general" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>General</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">What is Wisp?</a>
+				<div class="cd-faq-content">
+					<p>Wisp (WISP) is an innovative privacy focused cryptocurrency, featuring an energy-efficient proof-of-stake algorithm that provides rapid transaction confirmations, ring signatures for privacy and anonymity, and a fully integrated Tor+OBFS4 layer for IP obfuscation within the wallet.</p><br>
+					<p>Wisp is actively developed, with an ambitious roadmap that prioritises privacy, security, and true decentralisation with features such as default stealth addresses and stealth staking, and low-power mobile wallet staking in our upcoming Android wallet.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">How does Wisp work?</a>
+				<div class="cd-faq-content">
+					<p><iframe width="560" height="315" src="https://www.youtube.com/embed/h_2AwPE-WW4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">Why is Wisp needed?</a>
+				<div class="cd-faq-content">
+					<p>Many cryptocurrency wallets can connect to other nodes on the network through Tor, yet the other nodes can still be identified by their IP address as the user routes the traffic through several relays on the Tor network, including one entry and one exit node.</p><br>
+					<p>In Wisp however, all nodes on the network are operating as Tor hidden services; they are not addressed by their IP address, but by their onion address which encodes a public key used for traffic encryption along with a way to find a route to that node. No exit nodes are involved, and at any point in time, the communication between two nodes is fully encrypted.</p><br>
+					<p>Wisp comes bundled with the latest Tor software that has been included without any functional changes. It is not possible to connect to the Wisp network without using Tor, as all nodes are only reachable via their hidden service address. No real IP addresses are known to any network participant except for their own, and it is infeasible for an attacker to analyse the network structure or censor the network.</p><br>
+					<p>Wisp has inbuilt support for OBFS4, an obfuscation protocol that hides the nature of the traffic that goes through it. By incorporating OBFS4, it is possible to use Wisp even in countries where access to the Tor network is censored, like China or Iran. In short, the integration of OBFS4 effectively ‘wraps’ the Tor traffic in another layer making it appear as normal internet traffic.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">Where can I buy Wisp?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Why does Wisp have a rich list?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">When looking at a block explorer, a large amount of coins appear to be held by only a few wallets. Is this an issue?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Why isn't Wisp on more exchanges?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+		</ul>
+		
+		<!-- END GENERAL SECTION -->
+		
+		
+		
+		
+		
+		<!-- START TECHNICAL SECTION -->
+
+		<ul id="technical" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Technical</h2></li>
+			
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">How do I set up my Wisp wallet?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, placeat quisquam rerum! Eligendi fugit dolorum tenetur modi fuga nisi rerum, autem officiis quaerat quos. Magni quia, quo quibusdam odio. Error magni aperiam amet architecto adipisci aspernatur! Officia, quaerat magni architecto nostrum magnam fuga nihil, ipsum laboriosam similique voluptatibus facilis nobis? Eius non asperiores, nesciunt suscipit veniam blanditiis veritatis provident possimus iusto voluptas, eveniet architecto quidem quos molestias, aperiam eum reprehenderit dolores ad deserunt eos amet. Vero molestiae commodi unde dolor dicta maxime alias, velit, nesciunt cum dolorem, ipsam soluta sint suscipit maiores mollitia assumenda ducimus aperiam neque enim! Quas culpa dolorum ipsam? Ipsum voluptatibus numquam natus? Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam rerum maiores officia! Beatae, molestias!</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">What is staking?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">How do I stake?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Is it neccesary to download the Tor browser to use the Wisp wallet?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">How is Wisp going to scale transactions?</a>
+				<div class="cd-faq-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollit</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+		</ul> <!-- cd-faq-group -->
+		
+		<!-- END TECHNICAL SECTION -->
+		
+		
+		
+		<!-- START GUIDES SECTION -->
+
+		<ul id="guides" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Guides</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">Coming Soon</a>
+				<div class="cd-faq-content">
+				
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul> <!-- cd-faq-group -->
+		
+		<!-- END GUIDES SECTION -->
+		
+	</div>
+	
+	<!-- END FAQ -->
+	
+	
+	
+	<a href="#0" class="cd-close-panel">Close</a>
+	
+	
+	
+</section> <!-- cd-faq -->
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <!-- Join section start -->
+        <div class="section primary-section">
+            <div class="container">
+                    <div class="title">
+                        
+                            <h3>Join us!</h3>
+                        
+                    </div>
+					
+					<div class="row-fluid">
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/discord.png" alt="service 1">
+								</a>
+							</div>
+						</div>
+						
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/twitter.png" alt="service 2">
+								</a>
+							</div>
+						</div>
+						
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/reddit.png" alt="service 3">
+								</a>
+							</div>
+						</div>
+						
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/facebook.png" alt="service 4">
+								</a>
+							</div>
+						</div>
+						
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/bitcoin.png" alt="service 5">
+								</a>
+							</div>
+						</div>
+						
+						<div class="span2">
+							<div class="centered join">
+								<a href="https://www.discord.com">
+									<img class="img-square" src="images/github.png" alt="service 5">
+								</a>
+							</div>
+						</div>
+						
+					</div>
+                </div>
+            </div>
+        </div>
+        <!-- Join section end -->
+		
+		
+        <!-- Footer section start -->
+        <div class="footer">
+            <p>&copy; Wisp 2018</a></p>
+        </div>
+        <!-- Footer section end -->
+		
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+		
+        <!-- Include javascript -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+		
+		 -->
+	
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+		<script src="js2/jquery-2.1.1.js"></script>
+		<script src="js2/jquery.mobile.custom.min.js"></script>
+		<script src="js2/main.js"></script> <!-- Resource jQuery -->
+		
+    </body>
+</html>
