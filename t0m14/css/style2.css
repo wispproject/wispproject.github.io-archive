@@ -1,0 +1,120 @@
+
+.test {
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#4e4e4e), to(white));
+  background: linear-gradient(white, #4e4e4e, white);
+  background-size: .1rem 400%;
+  -webkit-animation: bg 8s infinite;
+          animation: bg 8s infinite;
+  text-align: center;
+}
+
+.hee {
+  position: absolute;
+    left:0;
+    right:0;
+     margin:auto;
+  height: 30vh;
+  width: 30vh;
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ha {
+
+    left:0;
+    right:0;
+    top: 60vh;
+    bottom: 0;
+
+position: absolute;
+
+}
+
+
+.haha {
+
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+/*
+.ha {
+  position: :fixed;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+   overflow: hidden;
+  background-size: contain;
+    background-position: absolute;
+  background-position: center; 
+}
+*/
+
+@media screen and (min-width: 980px) {
+.main-nav.active
+{
+  display: none;
+}
+  }
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 980px) {
+  .et-hero-tabs-container a:not(:first-child) {display: none;}
+
+  .et-hero-tabs-container  a.icon {
+    float: right;
+ display: block;
+     width: 124px !important;
+
+  }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 980px) {
+  .et-hero-tabs-container .responsive {position: relative;}
+
+ .et-hero-tabs-container .responsive a {
+    float: none;
+
+    text-align: left;
+  }
+}
+
+
+@-webkit-keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 0 200%;
+  }
+  
+  100% {
+    background-position: 0 400%;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 0 200%;
+  }
+  
+  100% {
+    background-position: 0 400%;
+  }
+}

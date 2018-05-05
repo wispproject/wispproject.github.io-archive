@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  width="64px" height="64px" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00330708661 2.04232984 8.58591339 2.04232984 8.58591339 19.5459398 0.00330708661 19.5459398"></polygon>
+    </defs>
+    <g id="Current-designs" stroke="none" stroke-width="1" fill="#666" fill-rule="evenodd">
+        <g id="X-Cloud---install-buttons" transform="translate(-640.000000, -1250.000000)">
+            <g id="Group-4" transform="translate(640.000000, 1250.000000)">
+                <g id="Group-7" fill="#666">
+                    <polygon id="Fill-1" points="0 18.3657068 8.58591339 19.5459398 8.58591339 11.3717723 0 11.3717723"></polygon>
+                    <polygon id="Fill-3" points="0 10.3169895 8.58591339 10.3169895 8.58591339 2.04232984 0 3.22256283"></polygon>
+                    <polygon id="Fill-5" points="9.5300315 19.671555 20.9485197 21.2408927 20.9485197 11.3715524 9.5300315 11.3715524"></polygon>
+                    <polygon id="Fill-6" points="9.53025197 1.91671466 9.53025197 10.3169895 20.9485197 10.3169895 20.9485197 0.347157068"></polygon>
+                </g>
+                <mask id="mask-2" fill="#666">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+            </g>
+        </g>
+    </g>
+</svg>

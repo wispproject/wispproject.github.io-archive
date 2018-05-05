@@ -1,1 +1,3 @@
-This site can be visited on https://wispproject.github.io/
+Snapshot from https://github.com/wispproject/website/
+
+Please use the above repository for making changes until we have decided on one of the different proposals.
