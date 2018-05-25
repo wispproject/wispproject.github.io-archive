@@ -1174,7 +1174,7 @@ ul {
 
     font-size: 25px;
 
-    font-weight: 500;
+    font-weight: 400;
 
     letter-spacing: -0.8px;
 
@@ -1425,7 +1425,7 @@ ul {
 
     font-size: 34.1px;
 
-    font-weight: 600;
+    font-weight: 500;
 
     letter-spacing: -0.7px;
 
@@ -1991,7 +1991,7 @@ ul {
 
     font-size: 34.1px;
 
-    font-weight: 600;
+    font-weight: 500;
 
     letter-spacing: -0.7px;
 
@@ -2031,7 +2031,7 @@ ul {
 
     font-size: 28px;
 
-    font-weight: 600;
+    font-weight: 500;
 
     letter-spacing: -0.6px;
 
@@ -5293,7 +5293,7 @@ body.overview #centerContainer.loading {
 
     font-size: 46px;
 
-    font-weight: 500;
+    font-weight: 400;
 
     line-height: 1.13;
 
@@ -6000,7 +6000,7 @@ body.overview #centerContainer.loading {
 
     .header-content {
 
-        margin-top: 91px;
+
 
     }
 
@@ -6596,7 +6596,6 @@ body.overview #centerContainer.loading {
 
         width: 684px;
 
-        padding: 72px 0;
 
         margin: 0 auto;
 
@@ -7388,7 +7387,7 @@ body.overview #centerContainer.loading {
 
         font-size: 42px;
 
-        font-weight: 600;
+        font-weight: 500;
 
         letter-spacing: -0.9px;
 
@@ -7829,7 +7828,7 @@ body.overview #centerContainer.loading {
 
     /* Strategy 1150 */
     .section3-home-content {
-        padding: 126px 19px 0 24px;
+        padding: 70px 19px 0 24px;
     }
 
 
@@ -7855,7 +7854,7 @@ body.overview #centerContainer.loading {
 
         font-size: 42px;
 
-        font-weight: 600;
+        font-weight: 500;
 
         letter-spacing: -0.3px;
 
@@ -8519,7 +8518,7 @@ body.overview #centerContainer.loading {
 
     .feature-black-tags-and-folders {
 
-        margin-bottom: 24px;
+
 
     }
 
