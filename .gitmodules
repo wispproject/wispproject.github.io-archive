@@ -1,0 +1,3 @@
+[submodule "paperwallet"]
+	path = paperwallet
+	url = https://github.com/sinfulhands/wisp_paperwallet.git
