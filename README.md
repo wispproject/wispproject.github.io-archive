@@ -8,7 +8,7 @@ Add a favicon <br />
 Optimize image weight <br />
 Animate wisp logo <br />
 Fill texts <br />
-Link whitepaper <br />
+Link whitepaper - DONE <br />
 Link wallets <br />
 SEO Optimization <br />
 Remove unused CSS/Javascript <br />
