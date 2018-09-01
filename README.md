@@ -3,7 +3,7 @@ Todo list : <br />
 
 Add a HTTP caching method <br />
 Add robot.txt file - DONE<br />
-Add a sitemap.xml <br />
+Add a sitemap.xml - DONE<br />
 Add a favicon - DONE<br />
 Optimize image weight <br />
 Animate wisp logo - WORK IN PRGRESS (see https://github.com/wispproject/graphics)<br />
