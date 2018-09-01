@@ -4,7 +4,7 @@ Todo list : <br />
 Add a HTTP caching method <br />
 Add robot.txt file <br />
 Add a sitemap.xml <br />
-Add a favicon <br />
+Add a favicon - DONE<br />
 Optimize image weight <br />
 Animate wisp logo <br />
 Fill texts <br />
