@@ -2,12 +2,12 @@ Todo list : <br />
 <br />
 
 Add a HTTP caching method <br />
-Add robot.txt file <br />
+Add robot.txt file - DONE<br />
 Add a sitemap.xml <br />
 Add a favicon - DONE<br />
 Optimize image weight <br />
-Animate wisp logo <br />
-Fill texts <br />
+Animate wisp logo - WORK IN PRGRESS (see https://github.com/wispproject/graphics)<br />
+Fill texts - DONE<br />
 Link whitepaper - DONE <br />
 Link wallets <br />
 SEO Optimization - WORK IN PROGRESS<br />
