@@ -10,7 +10,7 @@ Animate wisp logo <br />
 Fill texts <br />
 Link whitepaper - DONE <br />
 Link wallets <br />
-SEO Optimization <br />
+SEO Optimization - WORK IN PROGRESS<br />
 Remove unused CSS/Javascript <br />
 Add a system to (auto)select other languages <br />
 Making website work with javascript disabled - DONE<br />
