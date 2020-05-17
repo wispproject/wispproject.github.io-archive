@@ -8,55 +8,55 @@
 
 
 <url>
-  <loc>https://wispproject.com/</loc>
+  <loc>https://wispproject.github.io/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/White-Paper-v1.pdf</loc>
+  <loc>https://wispproject.github.io/White-Paper-v1.pdf</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/roadmap.html</loc>
+  <loc>https://wispproject.github.io/roadmap.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/paperwallet.html</loc>
+  <loc>https://wispproject.github.io/paperwallet.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/exchange.html</loc>
+  <loc>https://wispproject.github.io/exchange.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/donate.html</loc>
+  <loc>https://wispproject.github.io/donate.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/about.html</loc>
+  <loc>https://wispproject.github.io/about.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/faq.html</loc>
+  <loc>https://wispproject.github.io/faq.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/index.html</loc>
+  <loc>https://wispproject.github.io/index.html</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/paperwallet.html?culture=en</loc>
+  <loc>https://wispproject.github.io/paperwallet.html?culture=en</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/paperwallet.html?culture=fr</loc>
+  <loc>https://wispproject.github.io/paperwallet.html?culture=fr</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/paperwallet.html?culture=es</loc>
+  <loc>https://wispproject.github.io/paperwallet.html?culture=es</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://wispproject.com/paperwallet.html?culture=ru</loc>
+  <loc>https://wispproject.github.io/paperwallet.html?culture=ru</loc>
   <priority>0.64</priority>
 </url>
 
